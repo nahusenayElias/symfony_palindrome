@@ -1,0 +1,22 @@
+{# templates/palindrome/index.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Palindrome Checker{% endblock %}
+
+{% block body %}
+    <h1>Palindrome Checker</h1>
+
+    {{ form_start(form) }}
+    {{ form_row(form.word) }}
+    <button type="submit" class="btn btn-primary">Check</button>
+    {{ form_end(form) }}
+
+    {% if result is not null %}
+        {% if result %}
+            <p class="text-success">{{ form.word.vars.value }} is a palindrome.</p>
+        {% else %}
+            <p class="text-danger">{{ form.word.vars.value }} is not a palindrome.</p>
+        {% endif %}
+    {% endif %}
+{% endblock %}
