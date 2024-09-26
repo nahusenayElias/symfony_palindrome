@@ -2,7 +2,7 @@
 
 ## Description
 
-The project was done as part of the course `'Symfony Framework'`. This app takes a word as input then it checks it and returns if the word is a plaindrome or not.
+The project was done as part of the course `'Symfony Framework'`. This app takes a word as input then it checks it and returns if the word is a plaindrome or not. It was good project to delve into and practice the application of Symfony Framework concepts and methods. 
 
 
 ### Dependencies
@@ -42,7 +42,7 @@ symfony server:stop
 
 
 
-## Authors
+## Author
 
 ```shell
  Elias Nahusenay, Hagos.
